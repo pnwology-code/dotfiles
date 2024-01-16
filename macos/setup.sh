@@ -22,10 +22,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "MyMiniM1"
-sudo scutil --set HostName "MyMiniM1"
-sudo scutil --set LocalHostName "MyMiniM1"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MyMiniM1"
+sudo scutil --set ComputerName "Framis"
+sudo scutil --set HostName "Framis"
+sudo scutil --set LocalHostName "Framis"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Framis"
 
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
@@ -86,7 +86,7 @@ sudo chflags nohidden /Volumes
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
 # Set the orientation of Dock
-defaults write com.apple.dock orientation -string "left"
+defaults write com.apple.dock orientation -string "bottom"
 
 # Enable magnification of Dock items
 defaults write com.apple.dock magnification -bool true
@@ -107,4 +107,4 @@ defaults write com.apple.dock minimize-to-application -bool true
 defaults write com.apple.dock showhidden -bool true
 
 # Don’t show recent applications in Dock
-#defaults write com.apple.dock show-recents -bool false
+#defaults write com.apple.dock show-recents -bool true
