@@ -1,21 +1,54 @@
-cask 'discord'
+tap "1password/tap"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+
+#cask 'discord'
 cask 'docker'
-#cask 'firefox'
-#cask 'microsoft-edge'
+cask 'firefox'
+cask 'microsoft-edge'
 cask 'iterm2'
 #cask 'jetbrains-toolbox'
-cask 'miniconda'
-cask 'slack'
-#cask 'sourcetree'
-cask 'teamviewer'
-#cask 'visual-studio-code'
-cask 'zoom'
+#cask 'miniconda'
+#cask 'slack'
+cask 'sourcetree'
+#cask 'teamviewer'
+cask 'visual-studio-code'
+#cask 'zoom'
+cask '1password'
+cask 'disk-inventory-x'
+cask 'font-fira-code'
+cask 'font-fira-code-nerd-font'
+cask 'imageoptim'
+cask 'vlc'
 
 brew 'mas'
+brew 'nvm'
+brew 'gh'
 brew 'coreutils'
 brew 'wget'
 #brew 'azure-cli'
-brew 'awscli'
+#brew 'awscli'
+brew 'yarn'
+brew "xz"
+brew "bash-completion"
+brew "bat"
+brew "cmake"
+brew "fish"
+brew "git"
+brew "git-remote-codecommit"
+brew "gradle"
+brew "node"
+brew "openssl@3"
+brew "starship"
+brew "stow"
+brew "tmux"
+brew "tree"
+brew "vim"
+brew "zlib"
 
-#mas 'OneDrive', id: 823766827
-#mas 'Xcode', id: 497799835
+mas 'OneDrive', id: 823766827
+mas 'Xcode', id: 497799835
